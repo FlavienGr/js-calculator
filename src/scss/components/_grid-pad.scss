@@ -1,0 +1,35 @@
+.keyboard__box--clear {
+  grid-column: span 3;
+
+  .keyboard-accurate {
+    width: 100%;
+  }
+}
+
+.keyboard__box--digits {
+  grid-column: 1/4;
+  grid-row: 2/6;
+  display: grid;
+  grid-template-columns: repeat(3fr);
+  grid-template-rows: minmax(4px, auto);
+  grid-template-areas:
+    "nine height seven"
+    "six five four"
+    "three two one"
+    "zero zero .";
+}
+.keyboard__box--sign {
+  grid-column: 4/5;
+  grid-row: 1/6;
+  display: grid;
+  grid-template-areas:
+    "divide"
+    "multiply"
+    "subtract"
+    "add"
+    "equals";
+}
+.keyboard__box--decimal {
+  grid-column: 3/4;
+  grid-row: 5/6;
+}

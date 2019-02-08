@@ -1,0 +1,59 @@
+.keyboard {
+  width: 8.55rem;
+  height: 8rem;
+  border-radius: 3px;
+  cursor: pointer;
+  background-color: #152a36;
+  color: white;
+  font-size: 1.8rem;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 25px;
+}
+.keyboard:active {
+  border: #f7d873 solid 2px;
+}
+.keyboard:focus {
+  outline: none;
+}
+.keyboard__digits--zero {
+  @extend .keyboard;
+  width: 100%;
+  grid-area: zero;
+}
+.keyboard__digits--one {
+  @extend .keyboard;
+  grid-area: one;
+}
+.keyboard__digits--two {
+  @extend .keyboard;
+  grid-area: two;
+}
+.keyboard__digits--three {
+  @extend .keyboard;
+  grid-area: three;
+}
+.keyboard__digits--four {
+  @extend .keyboard;
+  grid-area: four;
+}
+.keyboard__digits--five {
+  @extend .keyboard;
+  grid-area: five;
+}
+.keyboard__digits--six {
+  @extend .keyboard;
+  grid-area: six;
+}
+.keyboard__digits--seven {
+  @extend .keyboard;
+  grid-area: seven;
+}
+.keyboard__digits--height {
+  @extend .keyboard;
+  grid-area: height;
+}
+.keyboard__digits--nine {
+  @extend .keyboard;
+  grid-area: nine;
+}

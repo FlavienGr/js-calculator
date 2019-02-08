@@ -1,0 +1,20 @@
+.keyboard__signs--add {
+  @extend .keyboard;
+  grid-area: add;
+}
+.keyboard__signs--multiply {
+  @extend .keyboard;
+  grid-area: multiply;
+}
+.keyboard__signs--subtract {
+  @extend .keyboard;
+  grid-area: subtract;
+}
+.keyboard__signs--divide {
+  @extend .keyboard;
+  grid-area: divide;
+}
+.keyboard__signs--equals {
+  @extend .keyboard;
+  grid-area: equals;
+}
